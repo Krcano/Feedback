@@ -1,5 +1,5 @@
 import React from "react";
-import PropTypes from "propTypes"
+import PropTypes from "prop-types";
 
 const FeedbackStats = ({ feedback }) => {
   let average =
@@ -17,8 +17,8 @@ const FeedbackStats = ({ feedback }) => {
   );
 };
 
-FeedbackStats.propTypes={
-    feedback: PropTypes.array.isRequired
-}
+FeedbackStats.propTypes = {
+  feedback: PropTypes.array.isRequired,
+};
 
 export default FeedbackStats;
